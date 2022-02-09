@@ -1,0 +1,101 @@
+*{
+    margin-top: 0px;
+    margin-left: 0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    gap:20px;
+    text-align: center;
+    margin-top: 10px;
+}
+.container-1{
+    display: flex;
+}
+
+.text-block {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.text-block input{
+    border-radius: 5px;
+    width: 60%;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.text-block button{
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    padding: 10px 50px 10px 50px;
+    border-radius: 5px;
+    border-color: none;
+    cursor: pointer;
+   
+}
+
+
+
+.image-block img{
+    width: 80%;
+}
+
+
+.container-2{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row-reverse;
+    
+    gap:20%;
+    background-color:  hsl(240, 75%, 98%);
+    background-image: url(../asserts/images/bg-curve-desktop.svg);
+    margin-bottom: 30px;
+}
+
+.container-2 img{
+    margin-top: 30px;
+    width: 40%;
+}
+
+.container-2 a{
+    color: hsl(170, 45%, 43%);
+}
+
+.card{
+    background: white;
+    
+    padding: 20px 20px;
+    width: 80%;
+    
+}
+.title{
+    display: flex;
+}
+
+.title p{
+    padding-top: 50px;
+    margin-left: 5px;
+}
+
+
+
+.title img{
+    width: 30%;
+    border-radius: 50%;
+}
+
+
+
