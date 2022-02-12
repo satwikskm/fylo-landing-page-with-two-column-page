@@ -403,9 +403,9 @@ body{
     .container-2 ::before{
         content: '';
         position: absolute;
-        top: 83%;
+        top: 110%;
         left: 23%;
-        transform: translate(-50%, 100%);
+        transform: translate(-56%, 100%);
         margin-left: 100px;
         height:80px;
         width: 100%;
