@@ -429,6 +429,9 @@ body{
     .footer-top .footer-text p{
         font-size: 10px;
     }
+    .footer-top button{
+        padding: 15px;
+    }
 }
 
 
