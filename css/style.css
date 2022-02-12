@@ -19,6 +19,7 @@ body{
     margin: 50px 50px;
 }
 
+
 .navbar ul{
     display: flex;
     list-style: none;
@@ -120,6 +121,12 @@ body{
     
 }
 
+.container-2 .card p{
+   
+    margin-top: 0px;
+}
+
+
 
 .container-2 img{
     margin-top: 30px;
@@ -181,6 +188,10 @@ body{
 .footer-top *>{
     flex: 1 1 30%;
 } */
+
+.footer-top .footer-text h1{
+    font-size: 40px;
+}
 
 
 .footer-top button{
@@ -271,9 +282,18 @@ body{
     h1{
         font-size: 25px;
     }
+    .navbar svg{
+        display: none;
+        
+        
+    }
+
+.navbar img{
+    width: 30%;
+}
 
     .container-1{
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .container-1 .input-bar{
         flex-direction: column;
@@ -290,6 +310,10 @@ body{
 
     .container-2 img{
         width: 100%;
+    }
+
+    .container-2 .card img{
+        width: 50%;
     }
 
     .container-2 ::before{
@@ -340,6 +364,71 @@ body{
 
 
     
+}
+
+@media(max-width:500px){
+    body{
+        font-size: 20px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .text-block h1{
+        font-size: 30px;
+    }
+    .navbar{
+        justify-content: space-around;
+        
+        
+    }
+    .navbar svg{
+        width: 25px;
+        
+    }
+
+    .navbar li{
+        font-size: 10px;
+    }
+
+    .text-block input{
+        width: 100%;
+    }
+
+    .text-block button{
+        padding-left: 10px;
+        width: 100%;
+        margin-left: 5px;
+    }
+
+    .container-2 ::before{
+        content: '';
+        position: absolute;
+        top: 83%;
+        left: 23%;
+        transform: translate(-50%, 100%);
+        margin-left: 100px;
+        height:80px;
+        width: 100%;
+        border-radius: 100% 0px 0px 0%;
+        background-color: hsl(240, 75%, 98%);
+        z-index: -1;
+        
+        
+    }
+
+    .container-2 .card p{
+        font-size: 10px;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .footer-top .footer-text h1{
+        font-size: 30px;
+    }
+
+    .footer-top .footer-text p{
+        font-size: 10px;
+    }
 }
 
 
